@@ -18,3 +18,13 @@ fields:
     min: 
     max: 
     step: 
+- name: what_is_this
+  type: textarea
+  default: Added text field
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: what is this
+  hidden: false
